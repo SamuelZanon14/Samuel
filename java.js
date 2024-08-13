@@ -1,6 +1,7 @@
-function changeFileName() {
-    const newFileName = prompt('Digite o novo nome do arquivo:', 'tartaruga');
-    if (newFileName) {
-        document.getElementById('fileName').innerText = newFileName;
-    }
+var a = window.document.getElementById('botao')
+a.addEventListener('click', clicar)
+
+function clicar(){
+    a.innerText = 'jorgeira'
+    a.style.background = 'green'
 }
