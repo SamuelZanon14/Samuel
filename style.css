@@ -22,3 +22,26 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease; /* Transição suave */
+    font-family: Arial, sans-serif;
+}
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave no botão */
+}
+button:hover {
+    background-color: #0056b3;
+}
